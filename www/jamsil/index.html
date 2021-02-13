@@ -7,10 +7,8 @@
   <title>잠실자동차극장</title>
 
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-TG83QMH');</script>
 <!-- End Google Tag Manager -->
 
@@ -47,7 +45,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <!-- Plugin CSS-->
-  <link rel="stylesheet" href="/common/plugin/owl-carousel/owl-carousel.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/common/plugin/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/common/plugin/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="/common/plugin/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css">
 
@@ -58,12 +56,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
        <![endif]-->
 
 <!-- Customizing CSS -->
-    <script src="/common/css/dain.css"></script>
-    <script src="/jamsil/css/jamsil.css"></script>
+    <link href="/common/css/common.css" rel="stylesheet">
+    <link href="/jamsil/css/jamsil.css" rel="stylesheet">
 
 
 <!-- Core scripts -->
-  <script src="/common/js/jquery.js"></script>
+<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+  <script src="/common/js/bootstrap.js"></script>
 
 <!-- Plugin js script -->
   <script src="/common/plugin/jquery.easing/jquery.easing.js"></script>
@@ -72,14 +74,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <!-- Customizing js script -->
-  <script src="/common/js/dain.js"></script>
+  <script src="/common/js/common.js"></script>
   <script src="/jamsil/js/jamsil.js"></script>
 
 </head>
-
-
-
-<body>
+<body id="pageTop">
+<header id="hddj" style="position:fixed; top:0; left:0; width:100%; z-index:10">
+  <div class="container">
+    <h1><a href="#none"><img src="//jeedain.cafe24.com/jamsil/img/touch_icon_6.png" alt=""></a></h1>
+    <ul id="gnbj">
+      <li><a href="aaa" class="">현재상영작</a></li>
+      <li><a href="#none">상영예정작</a></li>
+      <li><a href="#none">상영요청작</a></li>
+      <li><a href="#none">예매하기</a></li>
+      <li><a href="#none">이벤트/제휴할인</a></li>
+      <li><a href="#none">극장안내</a></li>
+      <li><a href="#none">오시는길</a></li>
+    </ul>
+  </div>
+<section id="mainBanner"></section>
+<section id="adImg"></section>
+<section id="aaa"></section>
+</header>
 
 </body>
 </html>
